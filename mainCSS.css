@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.opened ul {
+    display: block;
+}
+
+.closed ul {
+    display: none;
+}
+
+li.opened{
+    list-style-image: url("img/minus.gif");
+}
+
+li.closed{
+    list-style: url("img/plus.gif");
+}
+
+li.files {
+    list-style: url("img/document.gif");
+}
